@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+<h1>Welcome to Tic-Tac-Toe</h1>
+<h1 id="ai"></h1>
+<span>Chance of</span><h2 id = "player">player1: X</h2>
+<div class="container">
+	<button id = "0" class="main" onclick="selectBox(this.id)"></button>
+	<button id = "1" class="main" onclick="selectBox(this.id)"></button>
+	<button id = "2" class="main" onclick="selectBox(this.id)"></button>
+	<button id = "3" class="main" onclick="selectBox(this.id)"></button>
+	<button id = "4" class="main" onclick="selectBox(this.id)"></button>
+	<button id = "5" class="main" onclick="selectBox(this.id)"></button>
+	<button id = "6" class="main" onclick="selectBox(this.id)"></button>
+	<button id = "7" class="main" onclick="selectBox(this.id)"></button>
+	<button id = "8" class="main" onclick="selectBox(this.id)"></button>
+</div>
+
+<h2>player1: X</h2>
+<h2>player2: O</h2>
+
+<button id="reset" onclick="reset()">Reset</button>
+
+<button id = "playComputer" onclick="playWithAi()">Play with Artificial Intelligence</button>
+
+<button id="multiplayer" onclick="multiplayer()">Play with freind and host game</button>
+
+<button id="connect" onclick="connectMulti()">Play with freind and connect to game</button>
+
+<form id = "connectMulti"></form>
+
+<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+<script src="./client.js"></script>
+</body>
+</html>

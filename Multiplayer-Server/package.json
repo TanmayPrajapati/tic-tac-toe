@@ -1,0 +1,14 @@
+{
+  "name": "multiplayer-server",
+  "version": "1.0.0",
+  "description": "This is the server created to handle multiplayer system in tic-tac-toe game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanmay Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
